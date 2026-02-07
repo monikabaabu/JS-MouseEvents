@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(63, 0, 63);
+}
+
+#mybox {
+    background-color:  rgb(255, 196, 245);
+    width: 350px;
+    height: 300px;
+    font-size: 4.5em;
+    font-weight: bold;
+    font-family: poppins , sans-serif;
+    color: rgb(109, 1, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid rgb(145, 0, 116);
+    border-radius: 40px;
+    transition: all 0.5s ease-in-out;
+}
+
+#mybox:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
